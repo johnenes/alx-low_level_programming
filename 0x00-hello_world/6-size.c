@@ -3,7 +3,7 @@
  *main - A C program that prints the size of various types on the computer it is compiled
  *Return 0 (Success) 
  * */
-int main(){
+int main(void){
 	char a; 
 	int b; 
 	long int c ;
