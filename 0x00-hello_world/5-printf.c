@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-*main - A program that print exactly using printf function
-*Return: 0 (Success)
+* main - A program that print exactly using printf function
+* Return: 0 (Success)
 */
 int main(void)
 {
