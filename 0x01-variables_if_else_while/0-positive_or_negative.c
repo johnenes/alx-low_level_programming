@@ -1,9 +1,8 @@
-#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
 /**
- * main - Entry Point
- * Description : Generate random number based on positive or negative
+ * main -  Description : Generate random number based on positive or negative
  * Return : 0 (success)
  */
 
