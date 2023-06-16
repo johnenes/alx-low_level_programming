@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - Entry point 
- * Description:  program that prints the lowercase alphabet in reverse
+ * main - program that prints the lowercase alphabet in reverse
  * return Aways 0
  */
- int main(void)
+
+int main(void)
 {
 	int i;
 
@@ -12,7 +12,7 @@
 	{
 		putchar(i + '0');
 	}
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 }
