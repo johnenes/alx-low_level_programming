@@ -1,15 +1,11 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
-
 /**
  * main  - Entry point 
- *
  * Discription:  program will assign a random number to the variable n each time it is executed and printed the last digit
- *
  * Return: alway (Success)
  */
-
 int main(void)
 {
 	int n;
