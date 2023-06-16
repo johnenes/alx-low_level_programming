@@ -4,7 +4,8 @@
  * Description: prints the alphabet in lowercase except q and e,
  * Return: alway success
  */ 
-int main() {
+int main(void) 
+{
     int i;
 
     for (i = 0; i < 26; i++) {
