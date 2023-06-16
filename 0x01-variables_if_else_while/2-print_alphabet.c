@@ -4,16 +4,14 @@
  * Description: a program that prints the alphabet in lowercase using the putchar 
  * Return: 0
  */
-int main(void)
-{	
-	char letter;
+int main() {
+    int i;
 
-	for(letter = 'a';letter <='z'; letter++)
-	{	
-		putchar(letter);
-	}
-	
-	putchar("\n");	
+    for (i = 0; i < 26; i++) {
+        putchar('a' + i);
+    }
 
-	return (0);
+    putchar('\n');
+
+    return 0;
 }
