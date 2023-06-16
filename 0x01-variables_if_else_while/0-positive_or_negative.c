@@ -6,17 +6,19 @@
 * Discription: The variable n will store a different value every time you will run this program
 * Return: 0 (Success)
 */
-int main(){
+int main(void){
 	int n;
 	srand(time(0)); 
 	n = rand()-RAND_MAX/2;
-	printf("The result of the number :%d\n",n);
 	if(n>0){
-	    printf("is positive\nt");
+	    printf("%d ", n);		
+	    printf(" is Postive \n");
 	}else if(n<0){
-	     printf("is negative\n");
+	     printf("%d" ,n );
+	     printf(" is negative \n");
 	}else{
-	     printf("is zero\n");
+	     printf("%d",n);
+	     printf(" is zero \n");
 	}	
 	 return (0);
 }
