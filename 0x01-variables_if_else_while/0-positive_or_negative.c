@@ -3,9 +3,7 @@
 #include<time.h>
 /**
  * main - Entry Point
- *
- * Discription : This program generate random number based on negative or positive
- *
+ * Description :generate random number based on positive or negative
  * Return : 0 (success)
  */
 
