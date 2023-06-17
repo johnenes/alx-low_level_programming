@@ -13,5 +13,5 @@ putchar('0' + num);
 putchar('\n');
 num++;
 }
-return 0;
+return (0);
 }
