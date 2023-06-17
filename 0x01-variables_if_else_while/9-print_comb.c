@@ -1,12 +1,11 @@
 #include<stdio.h>
 /**
  * main - Entry Point
- * Description: The program print all possible
- * combination of a single digit numbers.
- * the number must be seperate by comma then
- * space between the number must be printed
- * in assending orderonly putchar function is a
- * llowed putchar use at a amaximum time through,
+ * Description: The program print all possible combination 
+ * of a single digit numbers.the number must be seperate 
+ * by comma then space between the number must be printed
+ * in assending orderonly putchar function is a llowed 
+ * putchar use at a amaximum time through,
  * char type not allowd
  * Retrun: 0
  */
@@ -33,4 +32,3 @@ int main ()
 
 	return (0);
  }
-
