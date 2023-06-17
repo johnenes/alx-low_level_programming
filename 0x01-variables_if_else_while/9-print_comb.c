@@ -1,25 +1,36 @@
 #include<stdio.h>
 /**
- * main  - Entry  point
- * Description: a program that prints all possible combinations of single-digit numbers
- * Return: 0
+ * main - Entry Point
+ * Description: The program print all possible combination
+ * of a single digit numbers.
+ * the number must be seperate by comma then space between
+ * the number must be printed in assending order
+ * only putchar function is allowed 
+ * putchar use at a amaximum time through , char type not 
+ * allowd
+ * Retrun: 0
  */
- 
-int main(void)
+ void print_combine_(int n) 
 {
-	int i = 0;
-
-	while (i < 10)
+	if (n > 9)
 	{
-		putchar(i + '0');
-		if (i < 9)
-		{
-			putchar(44);
-			putchar(32);
-		}
-		i++;
+		return;
 	}
+	putchar(n + '0');
+
+	if(n < 10)
+	{
+		putchar(',');
+		putchar(' ' );
+		print_combine_(n + 1);
+	}
+}
+
+int main ()
+{
+	print_combine_(0);
+	putchar('\n');
 
 	return (0);
-}
+ }
 
