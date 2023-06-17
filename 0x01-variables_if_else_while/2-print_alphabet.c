@@ -2,7 +2,8 @@
 /**
 *main - Entry point
 *Description:A program that prints 
-*the alphabet In lowercase using putchar 
+*the alphabet In lowercase 
+*using putchar 
 *Return: 0
 */
 int main(void)
