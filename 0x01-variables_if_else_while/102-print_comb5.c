@@ -14,28 +14,34 @@
  */
 int main(void)
 {
-	int i, j, k, l;
+	int i, j;
 
-	for (i = 0; i < 1000; i++)
+	for (i = 0; i <= 99; i++)
 	{
-		j = i / 100; /* hundreds */
-		k = (i / 10) % 10; /* tens */
-		l = i % 10; /* singles */
-
-		if (j < k && k < l)
+		for (j = i; j <= 99; j++)
 		{
-			putchar(j + '0');
-			putchar(k + '0');
-			putchar(l + '0');
+			int tens1 = i / 10;
+			int ones1 = i % 10;
+			int tens2 = j / 10;
+			int ones2 = j % 10;
 
-			if (i < 700)
-			{
-				putchar(44);
-				putchar(32);
-			}
+			/* Print tens digit of the first number */
+			putchar(tens1 + '0');
+			/* Print ones digit of the first number */
+			putchar(ones1 + '0');
+			/* Print a space */
+			putchar(' ');
+
+			/* Print tens digit of the second number */
+			putchar(tens2 + '0');
+			/* Print ones digit of the second number */
+			putchar(ones2 + '0');
+			/* Print a comma */
+			putchar(',');
+			/* Print a space */
+			putchar(' ');
 		}
 	}
-	putchar('\n');
 
 	return (0);
 }
