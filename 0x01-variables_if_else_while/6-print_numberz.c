@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-    int num = 0;
+int num = 0;
 
-    while (num <= 9)
-    {
-        putchar('0' + num);
-        putchar('\n');
-        num++;
-    }
-
-    return 0;
+while (num <= 9)
+{
+putchar('0' + num);
+putchar('\n');
+num++;
+}
+return 0;
 }
