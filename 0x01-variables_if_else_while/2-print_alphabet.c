@@ -1,21 +1,22 @@
 #include<stdio.h>
 /**
- * main - Entry point
- * Description: a program that prints the alphabet in lowercase using the putchar 
- * Return: 0
+ *main - Entry point
+ *Description: a program that prints the alphabet 
+ *in lowercase using the putchar 
+ *Return: 0
  */
 
 int main(void)
 {
 	
-   int i;
+int i;
 
-   for (i = 0; i < 26; i++)
-   {
-       putchar('a' + i);
-   }
+for (i = 0; i < 26; i++)
+{
+	putchar('a' + i);
+}
 
-   putchar('\n');
+	putchar('\n');
 
-   return 0;
+return (0);
 }
