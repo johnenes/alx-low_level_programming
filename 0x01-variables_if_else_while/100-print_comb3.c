@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description:the progam that print all possible
+ * Description: The progam that print all possible
  * different combination of two digits
  * the number must be different 
  * 01 and 10 are considered the same combination 
@@ -10,7 +10,9 @@
  * use only putchar function max of five usage
  * all the code be in the main  function
  * no use of type char
+ * Return: 0
  */
+
 int  main(void)
 {
 	int i, j;
