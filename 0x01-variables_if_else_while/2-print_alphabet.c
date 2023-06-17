@@ -4,7 +4,7 @@
  * Description: a program that prints the alphabet in lowercase using the putchar 
  * Return: 0
  */
-int main(void {
+int main(void) {
 	
     int i;
 
