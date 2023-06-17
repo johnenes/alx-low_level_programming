@@ -5,7 +5,6 @@
 *the alphabet In lowercase using putchar 
 *Return: 0
 */
-
 int main(void)
 {
 int i;
