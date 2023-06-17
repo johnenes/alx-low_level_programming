@@ -9,8 +9,8 @@ int num = 0;
 
 while (num <= 9)
 {
-putchar('0' + num);
-num--;
+putchar('0' + num++);
+
 }
 return (0);
 }
