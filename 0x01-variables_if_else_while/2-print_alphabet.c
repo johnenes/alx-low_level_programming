@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 *main:Entry point
-*Description: "This progam prints the alphabet in lowercase"
+* Description: "This progam prints the alphabet in lowercase"
 *Return: 0
 */
 int main(void)
