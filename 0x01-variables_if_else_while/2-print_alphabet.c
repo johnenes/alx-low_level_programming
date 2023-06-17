@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
 *main - Entry point
-* Description: A program that prints the alphabet 
-* In lowercase using the putchar 
+*Description: A program that prints the alphabet 
+*In lowercase using the putchar 
 *Return: 0
 */
 
