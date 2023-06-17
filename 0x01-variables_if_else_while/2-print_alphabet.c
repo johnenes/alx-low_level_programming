@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 *main:Entry point
-*description :This progam prints the alphabet in lowercase
+*Description: This progam prints the alphabet in lowercase
 *use the putchar function
 *Return: 0
 */
