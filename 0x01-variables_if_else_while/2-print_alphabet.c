@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- *main - Entry point
- * Description: A program that prints the alphabet 
- * In lowercase using the putchar 
- *Return: 0
- */
+*main - Entry point
+* Description: A program that prints the alphabet 
+* In lowercase using the putchar 
+*Return: 0
+*/
 
 int main(void)
 {
