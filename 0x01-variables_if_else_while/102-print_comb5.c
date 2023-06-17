@@ -14,34 +14,29 @@
  */
 int main(void)
 {
-	int i, j;
+    int i, j;
 
-	for (i = 0; i <= 99; i++)
-	{
-		for (j = i; j <= 99; j++)
-		{
-			int tens1 = i / 10;
-			int ones1 = i % 10;
-			int tens2 = j / 10;
-			int ones2 = j % 10;
+    for (i = 0; i <= 99; i++)
+    {
+        for (j = i; j <= 99; j++)
+        {
+            int tens1 = i / 10;
+            int ones1 = i % 10;
+            int tens2 = j / 10;
+            int ones2 = j % 10;
 
-			/* Print tens digit of the first number */
-			putchar(tens1 + '0');
-			/* Print ones digit of the first number */
-			putchar(ones1 + '0');
-			/* Print a space */
-			putchar(' ');
+            putchar((tens1 / 10) + '0');
+            putchar((tens1 % 10) + '0');
+            putchar(ones1 + '0');
+            putchar(' ');
 
-			/* Print tens digit of the second number */
-			putchar(tens2 + '0');
-			/* Print ones digit of the second number */
-			putchar(ones2 + '0');
-			/* Print a comma */
-			putchar(',');
-			/* Print a space */
-			putchar(' ');
-		}
-	}
+            putchar((tens2 / 10) + '0');
+            putchar((tens2 % 10) + '0');
+            putchar(ones2 + '0');
+            putchar(',');
+            putchar(' ');
+        }
+    }
 
-	return (0);
+    return 0;
 }
