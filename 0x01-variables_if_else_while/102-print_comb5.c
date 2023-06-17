@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - Entry point
  * Description: Print all possible different combinations of 3 digits.
  * Numbers must be separated by commas and a space.
  * The 3 digits must be different.
