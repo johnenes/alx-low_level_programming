@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-* main:Entry point
-* Description: "This progam prints the alphabet in lowercase"
-* Return: 0
-*/
+ * main - Entry Point
+ * Description: Use `putchar` function to print the alphabet in lowercase.
+ * Return: 0
+ */
 int main(void)
 {
+	char c = 'a';
 
-	int i;
-
-
-	for (i = 0; i < 26; i++)
+	while (c <= 'z')
 	{
-		putchar('a' + i);
+		putchar(c);
+		c++;
 	}
+	putchar('\n');
 
-		putchar('\n');
+	return (0);
 }
