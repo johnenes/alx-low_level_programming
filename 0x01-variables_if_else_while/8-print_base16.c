@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - Entry Point
- * Description :  program that prints all the numbers of base 16 in lowercase 
- * return 0
+ * Description: Print all numbers of base64 in lowercase.
+ * You can only use `putchar`, and only 3 times.
+ * Return: 0
  */
 int main(void)
 {
