@@ -15,7 +15,7 @@ return (0);
 
 /**
  * print_string_putchar - user defined function
- * @parameterstr - this string pointer variable
+ * @str - this string pointer variable
  */
 void print_string_putchar(const char *str)
 {
