@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ * description - this program print the default size of datatypes
  * Return: Always 0 (Success)
  */
 int main(void)
