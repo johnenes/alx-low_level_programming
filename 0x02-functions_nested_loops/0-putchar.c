@@ -19,5 +19,5 @@ int main(void)
 const char *message = "_putchar";
 print_string_putchar(message);
 _putchar('\n');
-return(0);
+return (0);
 }
