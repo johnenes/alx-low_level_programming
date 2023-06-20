@@ -3,6 +3,12 @@
  * main -  prints _putchar, followed by a new line
  * Return: Always 0 (Success)
  */
+
+/**
+ * print_string_putchar -used defined
+ * @str - this string pointer variable
+ */
+
 void print_string_putchar(const char *str);
 
 int main(void)
