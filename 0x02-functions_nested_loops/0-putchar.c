@@ -4,12 +4,12 @@
  * Return: Always 0 (Success)
  */
 
-/**
- * print_string_putchar -used defined
- * @str - this string pointer variable
- */
 
+/**
+ * @str: parameter constant pointer variable*
+ */
 void print_string_putchar(const char *str);
+
 
 int main(void)
 {
@@ -21,7 +21,7 @@ return (0);
 
 /**
  * print_string_putchar - user defined function
- * @str - this string pointer variable
+ * @str: this string pointer variable
  */
 void print_string_putchar(const char *str)
 {
