@@ -1,3 +1,4 @@
+#include "main.h"
 #include<unistd.h>
 
 /* _putchar is a function take an argument*/
@@ -18,5 +19,4 @@ _putchar(str[i]);
 i++;
 
 }
-
 }
