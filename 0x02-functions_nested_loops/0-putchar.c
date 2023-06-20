@@ -1,6 +1,9 @@
 #include "main.h"
-/* print_string_putchar  - is a function declaration*/
-/* description - a function called*/
+/**
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
+ */
+
 void print_string_putchar(const char *str)
 {
 int i = 0;
