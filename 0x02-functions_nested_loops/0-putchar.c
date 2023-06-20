@@ -13,10 +13,6 @@ _putchar('\n');
 return (0);
 }
 
-/**
- *print_string_putchar -user defined
- *@str:argument, which represents a pointer to a string
- */
 void print_string_putchar(const char *str)
 {
 int i = 0;
