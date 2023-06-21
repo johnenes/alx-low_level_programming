@@ -4,6 +4,7 @@
  * @n: The number of times table to print
  */
 void print_times_table(int n);
+
 void print_times_table(int n)
 {
 	int i, j, result;
