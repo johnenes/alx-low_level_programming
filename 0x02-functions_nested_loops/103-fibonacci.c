@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int fibonacci_sum(int limit) {
-    int a = 1, b = 2;  // starting terms
+    int a = 1, b = 2;  
     int total_sum = 0;
 
     while (a <= limit) {
