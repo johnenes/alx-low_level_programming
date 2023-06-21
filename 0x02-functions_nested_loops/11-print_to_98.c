@@ -12,7 +12,8 @@ if (n <= 98)
 {
 for (; n <= 98; n++)
 {
-_putchar(n / 10 + '0');
+_putchar(n / 100 + '0');
+_putchar((n / 10) % 10 + '0');
 _putchar(n % 10 + '0');
 
 if (n != 98)
@@ -24,17 +25,19 @@ _putchar(' ');
 }
 else
 {
-for (; n >= 98; n--)
+for (; n >= -98; n--)
 {
-_putchar(n / 10 + '0');
+_putchar(n / 100 + '0');
+_putchar((n / 10) % 10 + '0');	
 _putchar(n % 10 + '0');
 
-if (n != 98)
+if (n != -98)
 {
 _putchar(',');
-_putchar(' ');
+_putchar(' ');	
 }
 }
 }
+
 _putchar('\n');
 }
