@@ -3,7 +3,7 @@
 int fibonacci_sum(int limit) {
     int a = 1, b = 2;  
     int total_sum = 0;
-    int temp = b
+    int temp = b;
 
     while (a <= limit) {
         if (a % 2 == 0) {
