@@ -1,26 +1,25 @@
 #include <stdio.h>
 
-int fibonacci_sum(int limit) {
-    int a = 1, b = 2;  
-    int total_sum = 0;
-    int temp = b;
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    unsigned long int prev = 1, curr = 2, sum = 0, temp;
 
-    while (a <= limit) {
-        if (a % 2 == 0) {
-            total_sum += a;
-        }
+    while (curr <= 4000000)
+    {
+        if (curr % 2 == 0)
+            sum += curr;
 
-        b = a + b;
-        a = temp;
+        temp = curr;
+        curr += prev;
+        prev = temp;
     }
 
-    return total_sum;
-}
-
-int main() {
-    int limit = 4000000;
-    int sum_even_terms = fibonacci_sum(limit);
-    printf("%d\n", sum_even_terms);
+    printf("%lu\n", sum);
 
     return 0;
 }
