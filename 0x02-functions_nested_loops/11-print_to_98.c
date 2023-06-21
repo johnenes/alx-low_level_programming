@@ -4,40 +4,27 @@
  * @n: The starting number
  */
 
-void print_to_98(int n);
-
+ void print_to_98(int n);
 void print_to_98(int n)
 {
 if (n <= 98)
 {
 for (; n <= 98; n++)
 {
-_putchar(n / 100 + '0');
-_putchar((n / 10) % 10 + '0');
-_putchar(n % 10 + '0');
-
+_putchar("%d", n);
 if (n != 98)
-{
-_putchar(',');
-_putchar(' ');
-}
+_putchar(", ");
 }
 }
 else
 {
-for (; n >= -98; n--)
-{
-_putchar(n / 100 + '0');
-_putchar((n / 10) % 10 + '0');	
-_putchar(n % 10 + '0');
-
-if (n != -98)
-{
-_putchar(',');
-_putchar(' ');	
-}
+for (; n >= 98; n--)
+		{
+_putchar("%d", n);
+if (n != 98)
+_putchar(", ");
 }
 }
 
-_putchar('\n');
+_putchar("\n");
 }
