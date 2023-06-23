@@ -1,5 +1,5 @@
 #include "main.h"
-
+int _putchar(char c );
 /**
  * more_numbers - prints numbers between 0 to 14
  * 10 times.
