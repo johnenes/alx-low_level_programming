@@ -6,6 +6,7 @@
  * Return: Always 0.
  */
 
+
 int main(void)
 {
 	long int n, fp;
@@ -22,4 +23,3 @@ int main(void)
 	printf("%ld\n", fp);
 	return (0);
 }
-
