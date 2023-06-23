@@ -1,4 +1,5 @@
- int _putchar(char c);
+#include "main.h"
+int _putchar(char c);
 
 /**
  * print_most_numbers - Prints numbers from 0 to 9 (excluding 2 and 4) followed by a new line
