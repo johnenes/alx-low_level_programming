@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+int _putchar(char c);
 
 /**
  * puts2 - prints one char out of 2 of a string.
