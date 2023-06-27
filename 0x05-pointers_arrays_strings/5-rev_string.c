@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
  * rev_string - Reverses a string.
@@ -7,26 +6,30 @@
  */
 void rev_string(char *s)
 {
-	int len;
-	int i;
 	char *start;
 	char *end;
-	char temp;
-	len = strlen(s);  
+
+	if (s == NULL || *s == '\0')
+		return;
+
+	 start = s;
+	 end = s;
 
 	/* Move the end pointer to the last character of the string */
-	for (i = 0; i < len - 1; i++)
-	end++;
-	
-	/* Swap characters from start and end positions until */
-	/* they meet in the middle */
-	for (i = 0; i < len / 2; i++)
-	{
-	temp = *end;
-	*end = *start;
-	*start = temp;
+	while (*end != '\0')
+		end++;
 
-	start++;
 	end--;
+
+	/* Swap characters from start and end positions until they meet in the middle */
+	while (start < end)
+	{
+		char temp = *start;
+		*start = *end;
+		*end = temp;
+
+		start++;
+		end--;
 	}
 }
+
