@@ -7,7 +7,7 @@
  */
 void puts_half(char *str)
 {
-	int  i;
+	int i;
 	int length = strlen(str);
 	int start_index;
 
@@ -21,6 +21,10 @@ void puts_half(char *str)
 	for (i = start_index; i < length; i++)
 	{
 		putchar(str[i]);
+
+		/* Exit the loop after printing the second half */
+		if (i == length - 1)
+			break;
 	}
 
 	/* Print a new line */
