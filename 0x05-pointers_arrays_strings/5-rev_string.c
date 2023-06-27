@@ -21,7 +21,8 @@ void rev_string(char *s)
 
 	end--;
 
-	/* Swap characters from start and end positions until they meet in the middle */
+	/* Swap characters from start and end positions */
+       /*  until they meet in the middle */
 	while (start < end)
 	{
 		char temp = *start;
