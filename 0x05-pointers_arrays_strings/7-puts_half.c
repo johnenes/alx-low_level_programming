@@ -8,25 +8,14 @@
 void puts_half(char *str)
 {
 	int i;
-	int length = strlen(str);
-	int start_index;
 
-	/* Calculate the start index for the second half of the string */
-	if (length % 2 == 0)
-		start_index = length / 2;
-	else
-		start_index = (length - 1) / 2;
+	for (i = 0; str[i] != '\0'; i++)
+		;
 
-	/* Print the second half of the string */
-	for (i = start_index; i < length; i++)
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
 		putchar(str[i]);
-
-		/* Exit the loop after printing the second half */
-		if (i == length - 1)
-			break;
 	}
-
-	/* Print a new line */
 	putchar('\n');
 }
