@@ -28,6 +28,6 @@ char *_strcat(char *dest, const char *src)
 	/* Add a terminating null byte */
 	*ptr = '\0';
 
-	return dest;
+	return (dest);
 }
 
