@@ -1,4 +1,4 @@
-#include <stdio.h>
+ii#include <stdio.h>
 #include <ctype.h>
 
 /**
@@ -31,6 +31,6 @@ char *cap_string(char *str)
 		i++;
 	}
 
-	return (str);
+	return str;
 }
 
