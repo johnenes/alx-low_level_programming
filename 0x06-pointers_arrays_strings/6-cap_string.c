@@ -1,4 +1,4 @@
-ii#include <stdio.h>
+#include <stdio.h>
 #include <ctype.h>
 
 /**
@@ -27,10 +27,13 @@ char *cap_string(char *str)
 			str[i] = toupper(str[i]);
 			capitalize = 0;
 		}
+		else
+		{
+			capitalize = 0;
+		}
 
 		i++;
 	}
 
-	return str;
+	return (str);
 }
-
