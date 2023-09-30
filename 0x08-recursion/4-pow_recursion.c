@@ -2,7 +2,7 @@
  * _pow_recursion -funtion name
  * @x: function parameter
  * @y: function parameter
- * Return: power of number 
+ * Return: power of number
  */
 int _pow_recursion(int x, int y)
 {
