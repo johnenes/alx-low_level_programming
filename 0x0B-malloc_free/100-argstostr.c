@@ -37,5 +37,6 @@ k++;
 }
 output[k++] = '\n';
 }
+output[k] = '\0';
 return (output);
 }
