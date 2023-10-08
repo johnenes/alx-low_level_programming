@@ -8,8 +8,6 @@
  * @s2: String 2
  * @n: number of byte to concatenate from s2
  * Return: concatenating String
- *
- * if malloc fails, status vslue is to 
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
