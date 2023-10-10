@@ -9,7 +9,7 @@
 int main(void)
 {
 
-print("%s\", __FILE__);
+printf("%s\n", __FILE__);
 return (0);
 
 
