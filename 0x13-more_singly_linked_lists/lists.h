@@ -1,6 +1,7 @@
 #ifndef HEADER_H
 #define HEADER_H
 #include <stddef.h>
+#include <stdlib.h>
 
 typedef struct listint_s
 {
