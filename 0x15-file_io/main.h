@@ -1,5 +1,5 @@
 #ifndef HEADER
-#define
+#define HEADER
 
 #include <sys/types.h>
 #include <sys/stat.h>
