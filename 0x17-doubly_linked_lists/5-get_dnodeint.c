@@ -1,6 +1,4 @@
-#include "your_header_file_containing_dlistint_t_structure.h"
-#include <stddef.h>
-#include <stdlib.h>
+#include "lists.h"
 
 /**
  * add_dnodeint_end - Adds a new node at the end of a dlistint_t list
